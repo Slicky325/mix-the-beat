@@ -55,7 +55,6 @@ body {
   color: #fff;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .intro p {
@@ -114,12 +113,34 @@ body {
   margin: 10px 0;
 }
 
+.button {
+  border: none;
+  background-color: aquamarine;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 .about {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 80px;
   border-top: 2px solid #eeeeee;
+}
+
+.about-text h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .about-text h2 {
@@ -135,6 +156,13 @@ body {
   margin: 10px 0;
 }
 
+.about-text .desc{
+  font-size: 20px;
+  color: #585858;
+  margin: 10px 0;
+  text-align: center;
+}
+
 /* CSS for footer */
 .footer {
   display: flex;
@@ -145,6 +173,11 @@ body {
 }
 
 .footer .copy {
+  color: #fff;
+}
+
+.copy a{
+  padding: 10px;
   color: #fff;
 }
 
