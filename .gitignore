@@ -1,0 +1,14 @@
+reports/
+experiments/VGGish/__pycache__
+experiments/VGGish/mel_features.py
+experiments/VGGish/vggish_export_tfhub.py
+experiments/VGGish/vggish_inference_demo.py
+experiments/VGGish/vggish_input.py
+experiments/VGGish/vggish_params.py
+experiments/VGGish/vggish_pca_params.py
+experiments/VGGish/vggish_postprocess.py
+experiments/VGGish/vggish_slim.py
+experiments/VGGish/vggish_smoke_test.py
+experiments/VGGish/vggish_train_demo.py
+experiments/VGGish/vggish_pca_params.npz
+experiments/VGGish/vggish_model.ckpt
