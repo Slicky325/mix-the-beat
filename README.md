@@ -1,1 +1,3 @@
 # mix-the-beat
+
+My project is ‘mix-the-beat’ which aims to apply the concept of style transfer, commonly used in image processing, to the field of music. We do this by converting audio data into spectrograms which can then be put into CNN’s. I apply the approach of neural style transfer, like the one proposed by Gatys et.AI but keeping in mind that audio spectrograms require a specialized approach. The content audio and style audio are given, and the aim is to use them to generate a new audio clip in which the style is transferred on to the content clip. This project enables the generation of unique music compositions by blending the style of one piece with the content of another. 
